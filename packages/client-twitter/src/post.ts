@@ -10,6 +10,8 @@ import {
 } from "@ai16z/eliza";
 import { elizaLogger } from "@ai16z/eliza";
 import { ClientBase } from "./base.ts";
+import path from "path";
+import fs from "fs";
 
 const twitterPostTemplate = `
 # Areas of Expertise
@@ -31,6 +33,7 @@ Write a 1-3 sentence post that is {{adjective}} about {{topic}} (without mention
 Your response should not contain any questions. Brief, concise statements only. The total character count MUST be less than 280. No emojis. Use \\n\\n (double spaces) between statements.`;
 
 const MAX_TWEET_LENGTH = 280;
+const DRY_RUN_FILE_PATH = path.resolve(process.cwd(), "tweets.json");
 
 /**
  * Truncate text to fit within the Twitter character limit, ensuring it ends at a complete sentence.
@@ -40,7 +43,6 @@ function truncateToCompleteSentence(text: string): string {
         return text;
     }
 
-    // Attempt to truncate at the last period within the limit
     const truncatedAtPeriod = text.slice(
         0,
         text.lastIndexOf(".", MAX_TWEET_LENGTH) + 1
@@ -49,7 +51,6 @@ function truncateToCompleteSentence(text: string): string {
         return truncatedAtPeriod.trim();
     }
 
-    // If no period is found, truncate to the nearest whitespace
     const truncatedAtSpace = text.slice(
         0,
         text.lastIndexOf(" ", MAX_TWEET_LENGTH)
@@ -58,7 +59,6 @@ function truncateToCompleteSentence(text: string): string {
         return truncatedAtSpace.trim() + "...";
     }
 
-    // Fallback: Hard truncate and add ellipsis
     return text.slice(0, MAX_TWEET_LENGTH - 3).trim() + "...";
 }
 
@@ -100,6 +100,7 @@ export class TwitterPostClient {
 
             elizaLogger.log(`Next tweet scheduled in ${randomMinutes} minutes`);
         };
+
         if (
             this.runtime.getSetting("POST_IMMEDIATELY") != null &&
             this.runtime.getSetting("POST_IMMEDIATELY") != ""
@@ -124,131 +125,173 @@ export class TwitterPostClient {
         elizaLogger.log("Generating new tweet");
 
         try {
-            const roomId = stringToUuid(
-                "twitter_generate_room-" + this.client.profile.username
-            );
-            await this.runtime.ensureUserExists(
-                this.runtime.agentId,
-                this.client.profile.username,
-                this.runtime.character.name,
-                "twitter"
-            );
+            const isDryRun = this.runtime.getSetting("TWITTER_DRY_RUN") === "true";
+            const dryRunTweetCount =
+                parseInt(this.runtime.getSetting("DRY_RUN_TWEET_COUNT")) || 10;
+            const tweetCount = isDryRun ? dryRunTweetCount : 1;
 
-            const topics = this.runtime.character.topics.join(", ");
-            const state = await this.runtime.composeState(
-                {
-                    userId: this.runtime.agentId,
-                    roomId: roomId,
-                    agentId: this.runtime.agentId,
-                    content: {
-                        text: topics,
-                        action: "",
-                    },
-                },
-                {
-                    twitterUserName: this.client.profile.username,
-                }
-            );
-
-            const context = composeContext({
-                state,
-                template:
-                    this.runtime.character.templates?.twitterPostTemplate ||
-                    twitterPostTemplate,
-            });
-
-            elizaLogger.debug("generate post prompt:\n" + context);
-
-            const newTweetContent = await generateText({
-                runtime: this.runtime,
-                context,
-                modelClass: ModelClass.SMALL,
-            });
-
-            // Replace \n with proper line breaks and trim excess spaces
-            const formattedTweet = newTweetContent
-                .replaceAll(/\\n/g, "\n")
-                .trim();
-
-            // Use the helper function to truncate to complete sentence
-            const content = truncateToCompleteSentence(formattedTweet);
-
-            if (this.runtime.getSetting("TWITTER_DRY_RUN") === "true") {
-                elizaLogger.info(
-                    `Dry run: would have posted tweet: ${content}`
+            for (let i = 0; i < tweetCount; i++) {
+                const roomId = stringToUuid(
+                    "twitter_generate_room-" + this.client.profile.username
                 );
-                return;
-            }
 
-            try {
-                elizaLogger.log(`Posting new tweet:\n ${content}`);
-
-                const result = await this.client.requestQueue.add(
-                    async () =>
-                        await this.client.twitterClient.sendTweet(content)
+                await this.runtime.ensureUserExists(
+                    this.runtime.agentId,
+                    this.client.profile.username,
+                    this.runtime.character.name,
+                    "twitter"
                 );
-                const body = await result.json();
-                if (!body?.data?.create_tweet?.tweet_results?.result) {
-                    console.error("Error sending tweet; Bad response:", body);
-                    return;
-                }
-                const tweetResult = body.data.create_tweet.tweet_results.result;
 
-                const tweet = {
-                    id: tweetResult.rest_id,
-                    name: this.client.profile.screenName,
-                    username: this.client.profile.username,
-                    text: tweetResult.legacy.full_text,
-                    conversationId: tweetResult.legacy.conversation_id_str,
-                    createdAt: tweetResult.legacy.created_at,
-                    timestamp: new Date(
-                        tweetResult.legacy.created_at
-                    ).getTime(),
-                    userId: this.client.profile.id,
-                    inReplyToStatusId:
-                        tweetResult.legacy.in_reply_to_status_id_str,
-                    permanentUrl: `https://twitter.com/${this.runtime.getSetting("TWITTER_USERNAME")}/status/${tweetResult.rest_id}`,
-                    hashtags: [],
-                    mentions: [],
-                    photos: [],
-                    thread: [],
-                    urls: [],
-                    videos: [],
-                } as Tweet;
-
-                await this.runtime.cacheManager.set(
-                    `twitter/${this.client.profile.username}/lastPost`,
+                const topics = this.runtime.character.topics.join(", ");
+                const state = await this.runtime.composeState(
                     {
-                        id: tweet.id,
-                        timestamp: Date.now(),
+                        userId: this.runtime.agentId,
+                        roomId: roomId,
+                        agentId: this.runtime.agentId,
+                        content: {
+                            text: topics,
+                            action: "",
+                        },
+                    },
+                    {
+                        twitterUserName: this.client.profile.username,
                     }
                 );
 
-                await this.client.cacheTweet(tweet);
-
-                elizaLogger.log(`Tweet posted:\n ${tweet.permanentUrl}`);
-
-                await this.runtime.ensureRoomExists(roomId);
-                await this.runtime.ensureParticipantInRoom(
-                    this.runtime.agentId,
-                    roomId
-                );
-
-                await this.runtime.messageManager.createMemory({
-                    id: stringToUuid(tweet.id + "-" + this.runtime.agentId),
-                    userId: this.runtime.agentId,
-                    agentId: this.runtime.agentId,
-                    content: {
-                        text: newTweetContent.trim(),
-                        url: tweet.permanentUrl,
-                        source: "twitter",
-                    },
-                    roomId,
-                    embedding: getEmbeddingZeroVector(),
-                    createdAt: tweet.timestamp,
+                const context = composeContext({
+                    state,
+                    template:
+                        this.runtime.character.templates?.twitterPostTemplate ||
+                        twitterPostTemplate,
                 });
-            } catch (error) {
-                elizaLogger.error("Error sending tweet:", error);
+
+                elizaLogger.debug("generate post prompt:\n" + context);
+
+                const newTweetContent = await generateText({
+                    runtime: this.runtime,
+                    context,
+                    modelClass: ModelClass.SMALL,
+                });
+
+                const formattedTweet = newTweetContent
+                    .replaceAll(/\n/g, "\n")
+                    .trim();
+                const content = truncateToCompleteSentence(formattedTweet);
+
+                if (isDryRun) {
+                    const tweet = {
+                        id: "dry-run-" + Date.now(),
+                        name: this.client.profile.screenName,
+                        username: this.client.profile.username,
+                        text: content,
+                        createdAt: new Date().toISOString(),
+                        timestamp: Date.now(),
+                        hashtags: [],
+                        mentions: [],
+                        photos: [],
+                        thread: [],
+                        urls: [],
+                        videos: [],
+                    } as Tweet;
+
+                    try {
+                        const tweets: Tweet[] = await fs.promises
+                            .readFile(DRY_RUN_FILE_PATH, "utf-8")
+                            .then((data) => JSON.parse(data))
+                            .catch(() => []);
+
+                        tweets.push(tweet);
+                        await fs.promises.writeFile(
+                            DRY_RUN_FILE_PATH,
+                            JSON.stringify(tweets, null, 2),
+                            "utf-8"
+                        );
+
+                        elizaLogger.info(
+                            `Dry run: Tweet saved to ${DRY_RUN_FILE_PATH}`
+                        );
+                    } catch (error) {
+                        elizaLogger.error(
+                            `Error saving tweet in dry run mode:`,
+                            error
+                        );
+                    }
+                } else {
+                    elizaLogger.log(`Posting new tweet:\n ${content}`);
+
+                    try {
+                        const result = await this.client.requestQueue.add(
+                            async () =>
+                                await this.client.twitterClient.sendTweet(content)
+                        );
+                        const body = await result.json();
+
+                        if (!body?.data?.create_tweet?.tweet_results?.result) {
+                            console.error("Error sending tweet; Bad response:", body);
+                            return;
+                        }
+
+                        const tweetResult = body.data.create_tweet.tweet_results.result;
+
+                        const tweet = {
+                            id: tweetResult.rest_id,
+                            name: this.client.profile.screenName,
+                            username: this.client.profile.username,
+                            text: tweetResult.legacy.full_text,
+                            conversationId: tweetResult.legacy.conversation_id_str,
+                            createdAt: tweetResult.legacy.created_at,
+                            timestamp: new Date(
+                                tweetResult.legacy.created_at
+                            ).getTime(),
+                            userId: this.client.profile.id,
+                            inReplyToStatusId:
+                                tweetResult.legacy.in_reply_to_status_id_str,
+                            permanentUrl: `https://twitter.com/${this.runtime.getSetting("TWITTER_USERNAME")}/status/${tweetResult.rest_id}`,
+                            hashtags: [],
+                            mentions: [],
+                            photos: [],
+                            thread: [],
+                            urls: [],
+                            videos: [],
+                        } as Tweet;
+
+                        await this.runtime.cacheManager.set(
+                            `twitter/${this.client.profile.username}/lastPost`,
+                            {
+                                id: tweet.id,
+                                timestamp: Date.now(),
+                            }
+                        );
+
+                        await this.client.cacheTweet(tweet);
+
+                        elizaLogger.log(`Tweet posted:\n ${tweet.permanentUrl}`);
+
+                        await this.runtime.ensureRoomExists(roomId);
+                        await this.runtime.ensureParticipantInRoom(
+                            this.runtime.agentId,
+                            roomId
+                        );
+
+                        await this.runtime.messageManager.createMemory({
+                            id: stringToUuid(tweet.id + "-" + this.runtime.agentId),
+                            userId: this.runtime.agentId,
+                            agentId: this.runtime.agentId,
+                            content: {
+                                text: newTweetContent.trim(),
+                                url: tweet.permanentUrl,
+                                source: "twitter",
+                            },
+                            roomId,
+                            embedding: getEmbeddingZeroVector(),
+                            createdAt: tweet.timestamp,
+                        });
+                    } catch (error) {
+                        elizaLogger.error("Error sending tweet:", error);
+                    }
+                }
+
+                elizaLogger.info(`Generated tweet ${i + 1} of ${tweetCount}`);
             }
         } catch (error) {
             elizaLogger.error("Error generating new tweet:", error);
