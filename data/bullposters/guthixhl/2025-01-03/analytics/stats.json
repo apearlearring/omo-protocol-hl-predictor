@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 14,
+  "replies": 86,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 1127,
+    "totalRetweetCount": 42,
+    "totalReplies": 117,
+    "averageLikes": "11.27",
+    "topTweets": [
+      {
+        "id": "1875068851085508744",
+        "text": "Hyperliquid eco once the Solana bridge is open https://t.co/GMF2tKTqSu",
+        "likes": 166,
+        "retweetCount": 27,
+        "url": "https://twitter.com/GuthixHL/status/1875068851085508744"
+      },
+      {
+        "id": "1874029807237034001",
+        "text": "Just saw an OTC sale higher than the BAYC floor following this one lmfao (&gt;$53k)\n\nAs I’ve mention",
+        "likes": 112,
+        "retweetCount": 5,
+        "url": "https://twitter.com/GuthixHL/status/1874029807237034001"
+      },
+      {
+        "id": "1874613568961970341",
+        "text": "$PURR is no longer the #1 coin on Hyperliquid \n\nI believe this is a greenlight for leaders in the ec",
+        "likes": 109,
+        "retweetCount": 4,
+        "url": "https://twitter.com/GuthixHL/status/1874613568961970341"
+      },
+      {
+        "id": "1875073947575972038",
+        "text": "The Hyperliquid KOL round starts unlocking on February 1st, 2025\n\nDon’t get caught holding the bag.",
+        "likes": 100,
+        "retweetCount": 1,
+        "url": "https://twitter.com/GuthixHL/status/1875073947575972038"
+      },
+      {
+        "id": "1874668317119791294",
+        "text": "Coinfession: i hold a concerning % of my Bitcoin as WBTC on Solana\n\nThe only way to remedy this is s",
+        "likes": 87,
+        "retweetCount": 2,
+        "url": "https://twitter.com/GuthixHL/status/1874668317119791294"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-31",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 15,
+    "withVideos": 0,
+    "withLinks": 1,
+    "textOnly": 84
+  }
+}

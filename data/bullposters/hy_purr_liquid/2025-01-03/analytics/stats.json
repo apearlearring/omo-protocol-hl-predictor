@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 24,
+  "replies": 76,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 2196,
+    "totalRetweetCount": 177,
+    "totalReplies": 171,
+    "averageLikes": "21.96",
+    "topTweets": [
+      {
+        "id": "1870314099172876788",
+        "text": "If you hold $sol instead of $hype for the next 12 months\nyou'll know what its like being an eth hold",
+        "likes": 403,
+        "retweetCount": 31,
+        "url": "https://twitter.com/Hy_Purr_liquid/status/1870314099172876788"
+      },
+      {
+        "id": "1870265945933128028",
+        "text": "The Hyperliquid treasury is now worth $330million dollars. \nThey had $40million USDC on TGE\nThey've ",
+        "likes": 262,
+        "retweetCount": 29,
+        "url": "https://twitter.com/Hy_Purr_liquid/status/1870265945933128028"
+      },
+      {
+        "id": "1871841661028106680",
+        "text": "The 1 million sell wallet is down to 490k hype and has started twapping another 200k at a rate of ab",
+        "likes": 184,
+        "retweetCount": 9,
+        "url": "https://twitter.com/Hy_Purr_liquid/status/1871841661028106680"
+      },
+      {
+        "id": "1870301873544278328",
+        "text": "If testnet staking is a guide, you can expect 5-10% staking rewards for your $hype. Looks like the m",
+        "likes": 131,
+        "retweetCount": 6,
+        "url": "https://twitter.com/Hy_Purr_liquid/status/1870301873544278328"
+      },
+      {
+        "id": "1870298558425170270",
+        "text": "Bybit $144million 24 hour volume hype perps\nBinance will want a piece of the action real soon https:",
+        "likes": 125,
+        "retweetCount": 14,
+        "url": "https://twitter.com/Hy_Purr_liquid/status/1870298558425170270"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-21",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 14,
+    "withVideos": 0,
+    "withLinks": 2,
+    "textOnly": 84
+  }
+}

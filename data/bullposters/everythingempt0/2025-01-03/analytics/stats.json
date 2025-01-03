@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 14,
+  "replies": 86,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 1756,
+    "totalRetweetCount": 153,
+    "totalReplies": 258,
+    "averageLikes": "17.56",
+    "topTweets": [
+      {
+        "id": "1874111350416576735",
+        "text": "thankful for everything and we keep building\n\nhappy new year!",
+        "likes": 241,
+        "retweetCount": 10,
+        "url": "https://twitter.com/everythingempt0/status/1874111350416576735"
+      },
+      {
+        "id": "1872854343944421418",
+        "text": "its been 30 days with &gt;10,000 daily active wallets in the virtuals eco\n\nsuper thrilled to see man",
+        "likes": 229,
+        "retweetCount": 33,
+        "url": "https://twitter.com/everythingempt0/status/1872854343944421418"
+      },
+      {
+        "id": "1875201224318009652",
+        "text": "these days i spend 90% of my working hours talking to builders who have built or are exploring to bu",
+        "likes": 171,
+        "retweetCount": 17,
+        "url": "https://twitter.com/everythingempt0/status/1875201224318009652"
+      },
+      {
+        "id": "1872856952247882157",
+        "text": "i urge everyone to watch this three times to understand why ai agent is real and here right now\n\nand",
+        "likes": 148,
+        "retweetCount": 22,
+        "url": "https://twitter.com/everythingempt0/status/1872856952247882157"
+      },
+      {
+        "id": "1873748749526417811",
+        "text": "quick @luna_virtuals timeline and will keep getting better\n\n- 1st proof of sentience\n- 1st autonomou",
+        "likes": 110,
+        "retweetCount": 15,
+        "url": "https://twitter.com/everythingempt0/status/1873748749526417811"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-28",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 0,
+    "withVideos": 0,
+    "withLinks": 2,
+    "textOnly": 98
+  }
+}

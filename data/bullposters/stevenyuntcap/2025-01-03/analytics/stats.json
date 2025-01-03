@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 40,
+  "replies": 60,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 11447,
+    "totalRetweetCount": 864,
+    "totalReplies": 1162,
+    "averageLikes": "114.47",
+    "topTweets": [
+      {
+        "id": "1870134441848516924",
+        "text": "HYPE is now over $30. Those of you in the old school who believed Hyperliquid was just another purrp",
+        "likes": 608,
+        "retweetCount": 104,
+        "url": "https://twitter.com/stevenyuntcap/status/1870134441848516924"
+      },
+      {
+        "id": "1870897121924440272",
+        "text": "Pretty wild funding arbitrage opportunity going on with HYPE on Hyperliquid.\n\nYou can buy spot HYPE ",
+        "likes": 472,
+        "retweetCount": 20,
+        "url": "https://twitter.com/stevenyuntcap/status/1870897121924440272"
+      },
+      {
+        "id": "1874439513466077358",
+        "text": "Hyperliquid has hit $1T in all time volume with just a niche USDC bridge on Arbitrum.\n\nCan you imagi",
+        "likes": 445,
+        "retweetCount": 85,
+        "url": "https://twitter.com/stevenyuntcap/status/1874439513466077358"
+      },
+      {
+        "id": "1870319329755246949",
+        "text": "Only 7 out of 21 (33%) of @MessariCrypto analysts have exposure to HYPE.\n\nYou think Hyperliquid is a",
+        "likes": 407,
+        "retweetCount": 32,
+        "url": "https://twitter.com/stevenyuntcap/status/1870319329755246949"
+      },
+      {
+        "id": "1874524787625923057",
+        "text": "Anyone else find it odd that Hyperliquid's 'Staking Reward History' page has a column to specify tha",
+        "likes": 401,
+        "retweetCount": 29,
+        "url": "https://twitter.com/stevenyuntcap/status/1874524787625923057"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-20",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 26,
+    "withVideos": 2,
+    "withLinks": 11,
+    "textOnly": 63
+  }
+}

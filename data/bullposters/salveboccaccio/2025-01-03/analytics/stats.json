@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 36,
+  "replies": 64,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 587,
+    "totalRetweetCount": 11,
+    "totalReplies": 118,
+    "averageLikes": "5.87",
+    "topTweets": [
+      {
+        "id": "1875197695142568292",
+        "text": ".@base continues to dominate other L2s in terms of activity\n\nfees earned at $13M over the past month",
+        "likes": 50,
+        "retweetCount": 6,
+        "url": "https://twitter.com/salveboccaccio/status/1875197695142568292"
+      },
+      {
+        "id": "1874602146857148553",
+        "text": "Since the local top\n\nMemecoins -30% AI Agents +40%  \n\nGives us a clear indication of the buyer profi",
+        "likes": 49,
+        "retweetCount": 1,
+        "url": "https://twitter.com/salveboccaccio/status/1874602146857148553"
+      },
+      {
+        "id": "1874596219760394723",
+        "text": "consolidated dogshit into HYPE\n\nplease send them higher\n\nalso finally out of TAO and DMT\n\nyou;re wel",
+        "likes": 42,
+        "retweetCount": 0,
+        "url": "https://twitter.com/salveboccaccio/status/1874596219760394723"
+      },
+      {
+        "id": "1874560551004901629",
+        "text": "i am so close to giving up",
+        "likes": 34,
+        "retweetCount": 0,
+        "url": "https://twitter.com/salveboccaccio/status/1874560551004901629"
+      },
+      {
+        "id": "1874824721612828961",
+        "text": "classic https://t.co/C7sN7zLLqN",
+        "likes": 25,
+        "retweetCount": 0,
+        "url": "https://twitter.com/salveboccaccio/status/1874824721612828961"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2025-01-01",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 22,
+    "withVideos": 0,
+    "withLinks": 3,
+    "textOnly": 75
+  }
+}

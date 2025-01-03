@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 49,
+  "replies": 51,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 7216,
+    "totalRetweetCount": 360,
+    "totalReplies": 648,
+    "averageLikes": "72.16",
+    "topTweets": [
+      {
+        "id": "1872303454926037257",
+        "text": "2025 prediction\n\nbtc and select alts just has been the case all cycle \n\nit’s not that deep",
+        "likes": 409,
+        "retweetCount": 30,
+        "url": "https://twitter.com/stoicsavage/status/1872303454926037257"
+      },
+      {
+        "id": "1873287793679782130",
+        "text": "i did a macro doomer podcast tour today and let me tell you they are fucking giddy with joy and call",
+        "likes": 403,
+        "retweetCount": 38,
+        "url": "https://twitter.com/stoicsavage/status/1873287793679782130"
+      },
+      {
+        "id": "1873974033244680452",
+        "text": "altszn callers are just ethbtc bulls but too embarrassed to say it outright",
+        "likes": 305,
+        "retweetCount": 14,
+        "url": "https://twitter.com/stoicsavage/status/1873974033244680452"
+      },
+      {
+        "id": "1873690899273904585",
+        "text": "jeffs ship rate makes me very very hard\n\nhyperliquid",
+        "likes": 304,
+        "retweetCount": 24,
+        "url": "https://twitter.com/stoicsavage/status/1873690899273904585"
+      },
+      {
+        "id": "1872342046817853456",
+        "text": "assuming 10% of hype assigned to the future emissions and incentive pool is rewarded to users in 202",
+        "likes": 285,
+        "retweetCount": 13,
+        "url": "https://twitter.com/stoicsavage/status/1872342046817853456"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-26",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 17,
+    "withVideos": 0,
+    "withLinks": 6,
+    "textOnly": 77
+  }
+}

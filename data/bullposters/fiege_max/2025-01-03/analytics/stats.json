@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 23,
+  "replies": 77,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 2895,
+    "totalRetweetCount": 137,
+    "totalReplies": 269,
+    "averageLikes": "28.95",
+    "topTweets": [
+      {
+        "id": "1874434128701227023",
+        "text": "wow, BNB ran from 8 to 108B in three months when it became usable as collateral and a trading pair o",
+        "likes": 665,
+        "retweetCount": 60,
+        "url": "https://twitter.com/fiege_max/status/1874434128701227023"
+      },
+      {
+        "id": "1873444642986827815",
+        "text": "The big problem I see with $HYPE now is that most people have fallen in love with their bags.\n\nHow m",
+        "likes": 247,
+        "retweetCount": 8,
+        "url": "https://twitter.com/fiege_max/status/1873444642986827815"
+      },
+      {
+        "id": "1874481896970973655",
+        "text": "BASICALLY THE IRONY BEHIND \"HYPERLIQUID\"  \n\n1) HYPER LIQUID =&gt; HYPER ILLIQUID \n2) DECENTRALIZED =",
+        "likes": 156,
+        "retweetCount": 2,
+        "url": "https://twitter.com/fiege_max/status/1874481896970973655"
+      },
+      {
+        "id": "1874242531720061387",
+        "text": "The HYPE death spiral is obvious.\n\nwas just propped up by protocol “buybacks” (laundered funds) this",
+        "likes": 123,
+        "retweetCount": 4,
+        "url": "https://twitter.com/fiege_max/status/1874242531720061387"
+      },
+      {
+        "id": "1874979623387402356",
+        "text": "annualizing even slow day volumes gets you &gt; 1T in annualized hl volumes now https://t.co/eBbYnzf",
+        "likes": 119,
+        "retweetCount": 12,
+        "url": "https://twitter.com/fiege_max/status/1874979623387402356"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-21",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 5,
+    "withVideos": 0,
+    "withLinks": 1,
+    "textOnly": 94
+  }
+}

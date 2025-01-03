@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 45,
+  "replies": 55,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 6306,
+    "totalRetweetCount": 331,
+    "totalReplies": 741,
+    "averageLikes": "63.06",
+    "topTweets": [
+      {
+        "id": "1871933090505130301",
+        "text": "👀 @GAME_Virtuals just bought the $GAME ticker on Hyperliquid https://t.co/R1pdca7BjC",
+        "likes": 616,
+        "retweetCount": 44,
+        "url": "https://twitter.com/Darrenlautf/status/1871933090505130301"
+      },
+      {
+        "id": "1874182197525307714",
+        "text": "2025 resolutions:\n- get fit\n- get rich\n\nINSHALLAH",
+        "likes": 569,
+        "retweetCount": 45,
+        "url": "https://twitter.com/Darrenlautf/status/1874182197525307714"
+      },
+      {
+        "id": "1870556657509650809",
+        "text": "imagine you decided AI was gonna be  THE narrative Jan-March 2024 when AI started pumping, you thoug",
+        "likes": 568,
+        "retweetCount": 32,
+        "url": "https://twitter.com/Darrenlautf/status/1870556657509650809"
+      },
+      {
+        "id": "1870142101394174183",
+        "text": "Hair like this and cashed out 9 figs? \n\nGod has favourites for real https://t.co/VRCtxwbbFL",
+        "likes": 503,
+        "retweetCount": 17,
+        "url": "https://twitter.com/Darrenlautf/status/1870142101394174183"
+      },
+      {
+        "id": "1870348946432053415",
+        "text": "Our Father Jeff, who art in the trenches,\nhallowed be thy spread.\n\nThy EVM come,\nthy fills be done,\n",
+        "likes": 315,
+        "retweetCount": 44,
+        "url": "https://twitter.com/Darrenlautf/status/1870348946432053415"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-20",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 7,
+    "withVideos": 0,
+    "withLinks": 24,
+    "textOnly": 69
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 74,
+  "replies": 26,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 40459,
+    "totalRetweetCount": 2461,
+    "totalReplies": 4917,
+    "averageLikes": "404.59",
+    "topTweets": [
+      {
+        "id": "1869525874619605429",
+        "text": "ETH has their own Michael Saylor, it's the called Ethereum Foundation. \n\nExcept instead of buying th",
+        "likes": 5706,
+        "retweetCount": 417,
+        "url": "https://twitter.com/ThinkingUSD/status/1869525874619605429"
+      },
+      {
+        "id": "1869166170328485954",
+        "text": "So freeing to be rid of ETH, I can feel the homosexuality leaving my body.",
+        "likes": 3157,
+        "retweetCount": 115,
+        "url": "https://twitter.com/ThinkingUSD/status/1869166170328485954"
+      },
+      {
+        "id": "1870656883184599377",
+        "text": "there’s simply nothing interesting or innovative about a twitter account hooked up to chatgpt spitti",
+        "likes": 2540,
+        "retweetCount": 209,
+        "url": "https://twitter.com/ThinkingUSD/status/1870656883184599377"
+      },
+      {
+        "id": "1870642555890880788",
+        "text": "KINGMAKER TRADE FOR 2025:\n\nLong: \nHYPE + BTC\n\nShort dogshit: \nARB, ONDO, TIA, WLD, SEI",
+        "likes": 1342,
+        "retweetCount": 63,
+        "url": "https://twitter.com/ThinkingUSD/status/1870642555890880788"
+      },
+      {
+        "id": "1870149382546567392",
+        "text": "If you still hold ETH as a significant part of your portfolio you’re not a serious trader.",
+        "likes": 1195,
+        "retweetCount": 59,
+        "url": "https://twitter.com/ThinkingUSD/status/1870149382546567392"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-18",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 12,
+    "withVideos": 0,
+    "withLinks": 0,
+    "textOnly": 88
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 59,
+  "replies": 41,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 7785,
+    "totalRetweetCount": 409,
+    "totalReplies": 1336,
+    "averageLikes": "77.85",
+    "topTweets": [
+      {
+        "id": "1872631537403130286",
+        "text": "Hyperliquid",
+        "likes": 619,
+        "retweetCount": 37,
+        "url": "https://twitter.com/0xSisyphus/status/1872631537403130286"
+      },
+      {
+        "id": "1872488544310345962",
+        "text": "India has 1.4 billion people and not one of them can bench 3 plates\n\nHyperliquid",
+        "likes": 589,
+        "retweetCount": 21,
+        "url": "https://twitter.com/0xSisyphus/status/1872488544310345962"
+      },
+      {
+        "id": "1872994911190126994",
+        "text": "Either Hyperliquid will flip Binance or it will flip Solana. I leave it in the capable hands of Kyle",
+        "likes": 485,
+        "retweetCount": 43,
+        "url": "https://twitter.com/0xSisyphus/status/1872994911190126994"
+      },
+      {
+        "id": "1874809099998900660",
+        "text": "Defi topped at a small scale in late 2020 before the real bubble in early 2021. Then the category mo",
+        "likes": 239,
+        "retweetCount": 8,
+        "url": "https://twitter.com/0xSisyphus/status/1874809099998900660"
+      },
+      {
+        "id": "1875163575016374767",
+        "text": "New narrative: Defi x AI. Who is building this \n\nHyperliquid @aixbt_agent",
+        "likes": 229,
+        "retweetCount": 20,
+        "url": "https://twitter.com/0xSisyphus/status/1875163575016374767"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-26",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 1,
+    "withVideos": 0,
+    "withLinks": 2,
+    "textOnly": 97
+  }
+}

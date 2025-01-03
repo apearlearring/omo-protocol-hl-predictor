@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 42,
+  "replies": 58,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 4580,
+    "totalRetweetCount": 281,
+    "totalReplies": 408,
+    "averageLikes": "45.80",
+    "topTweets": [
+      {
+        "id": "1866929319420858620",
+        "text": "XRP: $138b\nBNB: $103b\nADA: $38b\nAVAX: $19,5b\nSUI: $12b\n\n&gt; HYPE: $5,4b\n\nYou are still early. Hyper",
+        "likes": 476,
+        "retweetCount": 44,
+        "url": "https://twitter.com/Henrik_on_HL/status/1866929319420858620"
+      },
+      {
+        "id": "1867274212366594159",
+        "text": "GCR owns:\n- HYPE\n- PURR\n- HFUN\n- JEFF\n- CATBAL\n\nI repeat: GCR holds CATBAL. https://t.co/1nkwSrpUw3",
+        "likes": 344,
+        "retweetCount": 25,
+        "url": "https://twitter.com/Henrik_on_HL/status/1867274212366594159"
+      },
+      {
+        "id": "1872244259879014484",
+        "text": "Few understand how bullish the recent price action on HYPE truly is. Hyperliquid just went through p",
+        "likes": 321,
+        "retweetCount": 24,
+        "url": "https://twitter.com/Henrik_on_HL/status/1872244259879014484"
+      },
+      {
+        "id": "1866948024057884757",
+        "text": "Daily reminder that you will also receive a HypurrNFT worth 7 figures. https://t.co/i89VRI0G8r",
+        "likes": 251,
+        "retweetCount": 17,
+        "url": "https://twitter.com/Henrik_on_HL/status/1866948024057884757"
+      },
+      {
+        "id": "1866230466329669699",
+        "text": "Hyperliquid. https://t.co/naVZDXfZU4",
+        "likes": 251,
+        "retweetCount": 10,
+        "url": "https://twitter.com/Henrik_on_HL/status/1866230466329669699"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-08",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 30,
+    "withVideos": 0,
+    "withLinks": 8,
+    "textOnly": 62
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 41,
+  "replies": 59,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 8220,
+    "totalRetweetCount": 551,
+    "totalReplies": 602,
+    "averageLikes": "82.20",
+    "topTweets": [
+      {
+        "id": "1869036497959350464",
+        "text": "stop gambling, own the casino. https://t.co/XnlGCauXYs",
+        "likes": 475,
+        "retweetCount": 37,
+        "url": "https://twitter.com/0xAnteater/status/1869036497959350464"
+      },
+      {
+        "id": "1867187624039113210",
+        "text": "part of why hype is doing so well is the same why memes did so well\n\neverything is a scam, overvalue",
+        "likes": 428,
+        "retweetCount": 36,
+        "url": "https://twitter.com/0xAnteater/status/1867187624039113210"
+      },
+      {
+        "id": "1863961238109348303",
+        "text": "upbit suspending deposits, withdrawals and front-end trading is the best advertisement for @Hyperliq",
+        "likes": 375,
+        "retweetCount": 35,
+        "url": "https://twitter.com/0xAnteater/status/1863961238109348303"
+      },
+      {
+        "id": "1870076990499500406",
+        "text": "hurt by the recent selloff?\n\nremember, most gamblers lose\n\nown the casino, stop gambling\n\nbuy $HYPE ",
+        "likes": 362,
+        "retweetCount": 67,
+        "url": "https://twitter.com/0xAnteater/status/1870076990499500406"
+      },
+      {
+        "id": "1863275960394772871",
+        "text": "average project: team is jeeting $50m and cashing out\n\n@chameleon_jeff airdrops to users and spends ",
+        "likes": 358,
+        "retweetCount": 27,
+        "url": "https://twitter.com/0xAnteater/status/1863275960394772871"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-11-30",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 12,
+    "withVideos": 0,
+    "withLinks": 4,
+    "textOnly": 84
+  }
+}

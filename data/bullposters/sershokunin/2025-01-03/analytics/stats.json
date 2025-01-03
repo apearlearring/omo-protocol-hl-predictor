@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 26,
+  "replies": 74,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 6125,
+    "totalRetweetCount": 279,
+    "totalReplies": 627,
+    "averageLikes": "61.25",
+    "topTweets": [
+      {
+        "id": "1871709014503076332",
+        "text": "Xmas test net shenanigans; the path to on chain Binance must continue…\n\nJOB AINT FINISHED https://t.",
+        "likes": 739,
+        "retweetCount": 87,
+        "url": "https://twitter.com/sershokunin/status/1871709014503076332"
+      },
+      {
+        "id": "1873572000217612468",
+        "text": "It’s almost 2025 and people still don’t understand the secret to crypto is learning how and when to ",
+        "likes": 438,
+        "retweetCount": 22,
+        "url": "https://twitter.com/sershokunin/status/1873572000217612468"
+      },
+      {
+        "id": "1873459435215225199",
+        "text": "1st update on allocating capital to a few young traders. Ended up picking 3 people; all from very di",
+        "likes": 301,
+        "retweetCount": 12,
+        "url": "https://twitter.com/sershokunin/status/1873459435215225199"
+      },
+      {
+        "id": "1873908514080645157",
+        "text": "even the most wholesome stories in crypto somehow end up turning dirty 😥",
+        "likes": 293,
+        "retweetCount": 12,
+        "url": "https://twitter.com/sershokunin/status/1873908514080645157"
+      },
+      {
+        "id": "1870892969445978459",
+        "text": "if you guys keep this up i'm going to retire off just the funding",
+        "likes": 256,
+        "retweetCount": 2,
+        "url": "https://twitter.com/sershokunin/status/1870892969445978459"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-21",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 5,
+    "withVideos": 0,
+    "withLinks": 0,
+    "textOnly": 95
+  }
+}

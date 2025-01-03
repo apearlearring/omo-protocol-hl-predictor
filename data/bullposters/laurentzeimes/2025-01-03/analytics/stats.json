@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 27,
+  "replies": 73,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 6388,
+    "totalRetweetCount": 114,
+    "totalReplies": 382,
+    "averageLikes": "63.88",
+    "topTweets": [
+      {
+        "id": "1864423507297173633",
+        "text": "@siliconvmg This camera work is so annoying and why use an artsy camera to report a news event",
+        "likes": 3155,
+        "retweetCount": 5,
+        "url": "https://twitter.com/laurentzeimes/status/1864423507297173633"
+      },
+      {
+        "id": "1862820943048950095",
+        "text": "I want all whales to update their name on the leaderboard and say “thank you Jeff”  can we make this",
+        "likes": 296,
+        "retweetCount": 12,
+        "url": "https://twitter.com/laurentzeimes/status/1862820943048950095"
+      },
+      {
+        "id": "1872199701908635649",
+        "text": "#NewProfilePic https://t.co/FAudi9x4qb",
+        "likes": 277,
+        "retweetCount": 7,
+        "url": "https://twitter.com/laurentzeimes/status/1872199701908635649"
+      },
+      {
+        "id": "1871835908523393151",
+        "text": "We need to fund the next 100 team building on HL. What the fuck did y’all think DEX takeover meant ?",
+        "likes": 221,
+        "retweetCount": 26,
+        "url": "https://twitter.com/laurentzeimes/status/1871835908523393151"
+      },
+      {
+        "id": "1873729559960621487",
+        "text": "Things that hurt about getting older:\n- Seeing my parents getting older\n- Seeing my kids growing up\n",
+        "likes": 202,
+        "retweetCount": 8,
+        "url": "https://twitter.com/laurentzeimes/status/1873729559960621487"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-11-23",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 13,
+    "withVideos": 0,
+    "withLinks": 4,
+    "textOnly": 83
+  }
+}

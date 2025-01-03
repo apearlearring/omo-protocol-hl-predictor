@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 36,
+  "replies": 64,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 2724,
+    "totalRetweetCount": 55,
+    "totalReplies": 278,
+    "averageLikes": "27.24",
+    "topTweets": [
+      {
+        "id": "1875021956388368626",
+        "text": "Y’all need to stop whining about AI agents lmfao like my GOD\n\nwe get it you missed it n then decided",
+        "likes": 372,
+        "retweetCount": 26,
+        "url": "https://twitter.com/TheCryptoNexus/status/1875021956388368626"
+      },
+      {
+        "id": "1874167527968051256",
+        "text": "Man it’s sick seeing my ai16z thesis play out like this \n\nBut at the same time… whenever it’s the ta",
+        "likes": 166,
+        "retweetCount": 1,
+        "url": "https://twitter.com/TheCryptoNexus/status/1874167527968051256"
+      },
+      {
+        "id": "1874215837617578021",
+        "text": "Fun fact! You could’ve sold the top, but instead you were smart about your tax planning so now you g",
+        "likes": 164,
+        "retweetCount": 0,
+        "url": "https://twitter.com/TheCryptoNexus/status/1874215837617578021"
+      },
+      {
+        "id": "1875175783599354308",
+        "text": "Aped 10% of port into $ENA",
+        "likes": 160,
+        "retweetCount": 3,
+        "url": "https://twitter.com/TheCryptoNexus/status/1875175783599354308"
+      },
+      {
+        "id": "1874205166750359817",
+        "text": "Still ~40% of my portfolio btw\n\nStudy fudding your own bags https://t.co/vi7EtnZ7ny",
+        "likes": 128,
+        "retweetCount": 1,
+        "url": "https://twitter.com/TheCryptoNexus/status/1874205166750359817"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-31",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 9,
+    "withVideos": 0,
+    "withLinks": 2,
+    "textOnly": 89
+  }
+}

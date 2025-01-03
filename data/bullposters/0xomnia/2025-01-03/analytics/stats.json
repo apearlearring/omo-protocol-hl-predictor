@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 15,
+  "replies": 85,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 1294,
+    "totalRetweetCount": 79,
+    "totalReplies": 143,
+    "averageLikes": "12.94",
+    "topTweets": [
+      {
+        "id": "1873759440886714774",
+        "text": "To those that say that $HYPE staking is a nothing burger, I would like to remind you that this is a ",
+        "likes": 220,
+        "retweetCount": 22,
+        "url": "https://twitter.com/0xOmnia/status/1873759440886714774"
+      },
+      {
+        "id": "1875002378677821704",
+        "text": "bears are fucked\n\nthe cheaper the price of $HYPE, the more $HYPE the AF gets to buy as volume is cle",
+        "likes": 185,
+        "retweetCount": 13,
+        "url": "https://twitter.com/0xOmnia/status/1875002378677821704"
+      },
+      {
+        "id": "1874282553903112465",
+        "text": "HyperEVM\nHYPE-denominated pairs\nHyperliquid DeFi\nValidators participating in consensus\nBuilder Codes",
+        "likes": 140,
+        "retweetCount": 21,
+        "url": "https://twitter.com/0xOmnia/status/1874282553903112465"
+      },
+      {
+        "id": "1874205074806968513",
+        "text": "hearing things\n\n$HYPE https://t.co/0wEcVzNIop",
+        "likes": 128,
+        "retweetCount": 4,
+        "url": "https://twitter.com/0xOmnia/status/1874205074806968513"
+      },
+      {
+        "id": "1874890308443328679",
+        "text": "One of my favorite parts about Hyperliquid that is still lost on the majority of participants in thi",
+        "likes": 91,
+        "retweetCount": 8,
+        "url": "https://twitter.com/0xOmnia/status/1874890308443328679"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-30",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 9,
+    "withVideos": 0,
+    "withLinks": 4,
+    "textOnly": 87
+  }
+}

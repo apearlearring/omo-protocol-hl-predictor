@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 39,
+  "replies": 61,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 6639,
+    "totalRetweetCount": 692,
+    "totalReplies": 614,
+    "averageLikes": "66.39",
+    "topTweets": [
+      {
+        "id": "1870408936148308069",
+        "text": "This cycle $HYPE will flip $SOL &amp; $BNB. \n\nBetween this cycle and next, it will flip $ETH. \n\nPump",
+        "likes": 491,
+        "retweetCount": 45,
+        "url": "https://twitter.com/NMTD8/status/1870408936148308069"
+      },
+      {
+        "id": "1870523254823407946",
+        "text": "Almost 100K $HYPE burned from trading fees. \n\n11.2M HYPE / $354M USD value bought back via exchange ",
+        "likes": 430,
+        "retweetCount": 56,
+        "url": "https://twitter.com/NMTD8/status/1870523254823407946"
+      },
+      {
+        "id": "1874453018823086134",
+        "text": "EVM likely before the end of January. \nMeans we'll have 1000s of AMM pools with / $HYPE pair.\n\n$HYPE",
+        "likes": 294,
+        "retweetCount": 44,
+        "url": "https://twitter.com/NMTD8/status/1874453018823086134"
+      },
+      {
+        "id": "1874388852342996997",
+        "text": "1/1/25 and we have hit $1T all time volume. Took around 18 months to reach this for HL. \n\n$3-5 Trill",
+        "likes": 290,
+        "retweetCount": 27,
+        "url": "https://twitter.com/NMTD8/status/1874388852342996997"
+      },
+      {
+        "id": "1873665913368817958",
+        "text": "Another level of FUD cleared.\n\nPublic $HYPE staking &amp; 16 validators activated on mainnet. All wi",
+        "likes": 259,
+        "retweetCount": 33,
+        "url": "https://twitter.com/NMTD8/status/1873665913368817958"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-20",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 23,
+    "withVideos": 0,
+    "withLinks": 7,
+    "textOnly": 70
+  }
+}

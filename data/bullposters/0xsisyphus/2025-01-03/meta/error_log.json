@@ -1,0 +1,100 @@
+[
+  {
+    "timestamp": "2025-01-03T16:36:56.389Z",
+    "error": {
+      "message": "this.saveProgress is not a function",
+      "stack": "TypeError: this.saveProgress is not a function\n    at TwitterPipeline.cleanup (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/TwitterPipeline.js:866:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async TwitterPipeline.run (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/TwitterPipeline.js:769:7)"
+    },
+    "context": {
+      "stage": "pipeline_execution",
+      "runtime": 57.671,
+      "stats": {
+        "requestCount": 0,
+        "rateLimitHits": 0,
+        "retriesCount": 1,
+        "uniqueTweets": 0,
+        "fallbackCount": 0,
+        "startTime": 1735922158718,
+        "oldestTweetDate": "2024-12-25T21:40:28.000Z",
+        "newestTweetDate": "2025-01-03T13:03:28.000Z",
+        "fallbackUsed": false
+      },
+      "username": "0xSisyphus",
+      "sessionDuration": 57671,
+      "rateLimitHits": 0,
+      "fallbackUsed": false,
+      "fallbackCount": 0
+    },
+    "stats": {
+      "requestCount": 0,
+      "rateLimitHits": 0,
+      "retriesCount": 1,
+      "uniqueTweets": 0,
+      "fallbackCount": 0,
+      "startTime": 1735922158718,
+      "oldestTweetDate": "2024-12-25T21:40:28.000Z",
+      "newestTweetDate": "2025-01-03T13:03:28.000Z",
+      "fallbackUsed": false
+    },
+    "config": {
+      "delays": {
+        "min": 1000,
+        "max": 5
+      },
+      "retries": 10,
+      "fallback": {
+        "enabled": true,
+        "sessionDuration": 1800000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-01-03T16:46:43.396Z",
+    "error": {
+      "message": "this.saveProgress is not a function",
+      "stack": "TypeError: this.saveProgress is not a function\n    at TwitterPipeline.cleanup (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/TwitterPipeline.js:866:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async TwitterPipeline.run (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/TwitterPipeline.js:769:7)\n    at async run (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/index.js:56:7)"
+    },
+    "context": {
+      "stage": "pipeline_execution",
+      "runtime": 17.344,
+      "stats": {
+        "requestCount": 0,
+        "rateLimitHits": 0,
+        "retriesCount": 0,
+        "uniqueTweets": 0,
+        "fallbackCount": 0,
+        "startTime": 1735922786052,
+        "oldestTweetDate": "2024-12-26T03:16:57.000Z",
+        "newestTweetDate": "2025-01-03T16:45:42.000Z",
+        "fallbackUsed": false
+      },
+      "username": "0xSisyphus",
+      "sessionDuration": 17345,
+      "rateLimitHits": 0,
+      "fallbackUsed": false,
+      "fallbackCount": 0
+    },
+    "stats": {
+      "requestCount": 0,
+      "rateLimitHits": 0,
+      "retriesCount": 0,
+      "uniqueTweets": 0,
+      "fallbackCount": 0,
+      "startTime": 1735922786052,
+      "oldestTweetDate": "2024-12-26T03:16:57.000Z",
+      "newestTweetDate": "2025-01-03T16:45:42.000Z",
+      "fallbackUsed": false
+    },
+    "config": {
+      "delays": {
+        "min": 1000,
+        "max": 5
+      },
+      "retries": 10,
+      "fallback": {
+        "enabled": true,
+        "sessionDuration": 1800000
+      }
+    }
+  }
+]

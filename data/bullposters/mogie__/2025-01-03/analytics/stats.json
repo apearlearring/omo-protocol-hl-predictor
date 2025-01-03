@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 34,
+  "replies": 66,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 1624,
+    "totalRetweetCount": 112,
+    "totalReplies": 181,
+    "averageLikes": "16.24",
+    "topTweets": [
+      {
+        "id": "1868866894419443977",
+        "text": "the hype monthly is setting up for a breakout imo https://t.co/BY5VuPL8cU",
+        "likes": 294,
+        "retweetCount": 23,
+        "url": "https://twitter.com/mogie__/status/1868866894419443977"
+      },
+      {
+        "id": "1867780882502726000",
+        "text": "takes courage to be a pig",
+        "likes": 137,
+        "retweetCount": 33,
+        "url": "https://twitter.com/mogie__/status/1867780882502726000"
+      },
+      {
+        "id": "1870328825831362754",
+        "text": "HYPE just entered top 20 on CMC \n\nnahhhhh, I’m sure HBAR, DOT, XLM, SHIB, SUI, TON, LINK and AVAX ar",
+        "likes": 92,
+        "retweetCount": 8,
+        "url": "https://twitter.com/mogie__/status/1870328825831362754"
+      },
+      {
+        "id": "1868362171517919384",
+        "text": "I bet on Jeff\n\nI bet on Loracle\n\nI will continue betting on cracked devs in hl eco with ambitious go",
+        "likes": 86,
+        "retweetCount": 2,
+        "url": "https://twitter.com/mogie__/status/1868362171517919384"
+      },
+      {
+        "id": "1872363323792236749",
+        "text": "Yes I have abandoned Hyperliquid despite supporting it in the past.  \n\nYes Hyperliquid has abandoned",
+        "likes": 82,
+        "retweetCount": 9,
+        "url": "https://twitter.com/mogie__/status/1872363323792236749"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-12",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 25,
+    "withVideos": 2,
+    "withLinks": 1,
+    "textOnly": 72
+  }
+}

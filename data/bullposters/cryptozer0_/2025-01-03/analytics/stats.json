@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 33,
+  "replies": 67,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 1180,
+    "totalRetweetCount": 40,
+    "totalReplies": 94,
+    "averageLikes": "11.80",
+    "topTweets": [
+      {
+        "id": "1864239452039663679",
+        "text": "Live view of $HYPE holders as @chameleon_jeff leads us into the citadel https://t.co/jyzT3XMgs9",
+        "likes": 222,
+        "retweetCount": 25,
+        "url": "https://twitter.com/CryptoZer0_/status/1864239452039663679"
+      },
+      {
+        "id": "1874660794337493488",
+        "text": "New years resolution:\n- Post more detailed trade ideas (actually treat Twitter as a trading journal)",
+        "likes": 137,
+        "retweetCount": 1,
+        "url": "https://twitter.com/CryptoZer0_/status/1874660794337493488"
+      },
+      {
+        "id": "1868069027081519516",
+        "text": "$HYPE sounds like a ponzi https://t.co/itMNv4RGtn",
+        "likes": 113,
+        "retweetCount": 4,
+        "url": "https://twitter.com/CryptoZer0_/status/1868069027081519516"
+      },
+      {
+        "id": "1875090736707997991",
+        "text": "TP'd half my VIRTUALS stack\n\nI think a lot of the factors that got me into this trade has already be",
+        "likes": 76,
+        "retweetCount": 0,
+        "url": "https://twitter.com/CryptoZer0_/status/1875090736707997991"
+      },
+      {
+        "id": "1874649759149158610",
+        "text": "VIRTUALS up 200%\nHYPE up 300%\n\nVirtualHype",
+        "likes": 74,
+        "retweetCount": 2,
+        "url": "https://twitter.com/CryptoZer0_/status/1874649759149158610"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-04",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 10,
+    "withVideos": 1,
+    "withLinks": 2,
+    "textOnly": 87
+  }
+}

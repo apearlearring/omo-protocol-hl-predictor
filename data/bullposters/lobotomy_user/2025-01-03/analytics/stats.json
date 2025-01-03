@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 25,
+  "replies": 75,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 66268,
+    "totalRetweetCount": 7070,
+    "totalReplies": 291,
+    "averageLikes": "662.68",
+    "topTweets": [
+      {
+        "id": "1873386975937581352",
+        "text": "when the wave of sadness disappear and you realize youre goated https://t.co/eR7IPhv0sF",
+        "likes": 64679,
+        "retweetCount": 6994,
+        "url": "https://twitter.com/lobotomy_user/status/1873386975937581352"
+      },
+      {
+        "id": "1873465511599862231",
+        "text": "@Invested_Medici pusher",
+        "likes": 466,
+        "retweetCount": 7,
+        "url": "https://twitter.com/lobotomy_user/status/1873465511599862231"
+      },
+      {
+        "id": "1872333259977490661",
+        "text": "staked 1m sol for 4 years, passively make millions $ in interest, first big transaction is rotating ",
+        "likes": 274,
+        "retweetCount": 52,
+        "url": "https://twitter.com/lobotomy_user/status/1872333259977490661"
+      },
+      {
+        "id": "1872400389011898556",
+        "text": "gambled for this view https://t.co/v9JQUMqgzj",
+        "likes": 100,
+        "retweetCount": 0,
+        "url": "https://twitter.com/lobotomy_user/status/1872400389011898556"
+      },
+      {
+        "id": "1874339085843935644",
+        "text": "pvp hat\n\n-5 bps spread\n+2 charm\n+3 intellect\n-1 constitution\n50% higher probability of getting liqui",
+        "likes": 79,
+        "retweetCount": 1,
+        "url": "https://twitter.com/lobotomy_user/status/1874339085843935644"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-26",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 17,
+    "withVideos": 3,
+    "withLinks": 5,
+    "textOnly": 76
+  }
+}

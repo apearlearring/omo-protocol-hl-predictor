@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 33,
+  "replies": 67,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 20099,
+    "totalRetweetCount": 1252,
+    "totalReplies": 1698,
+    "averageLikes": "200.99",
+    "topTweets": [
+      {
+        "id": "1716854167434834318",
+        "text": "you guys are so fucking retarded\n\nmakes me very hopeful and bullish on our future 🙏",
+        "likes": 1715,
+        "retweetCount": 191,
+        "url": "https://twitter.com/DegenSpartan/status/1716854167434834318"
+      },
+      {
+        "id": "1717380770506183086",
+        "text": "This is Degenerate Spartan, I'm a profit maxi not a crypto priest, Senpai of the Hentai. https://t.c",
+        "likes": 1003,
+        "retweetCount": 74,
+        "url": "https://twitter.com/DegenSpartan/status/1717380770506183086"
+      },
+      {
+        "id": "1717328232452940053",
+        "text": "comments are hilarious\n\ntheres ALWAYS suddenly another offer\n\nbecause real estate agents are lying r",
+        "likes": 907,
+        "retweetCount": 59,
+        "url": "https://twitter.com/DegenSpartan/status/1717328232452940053"
+      },
+      {
+        "id": "1717198414277202427",
+        "text": "the biggest bull trap ive ever seen\n\nbut they wont trap me",
+        "likes": 901,
+        "retweetCount": 44,
+        "url": "https://twitter.com/DegenSpartan/status/1717198414277202427"
+      },
+      {
+        "id": "1717386638551400555",
+        "text": "i said ill be leaving so im leaving\n\ndont know when ill be back again\n\ni figured today will be as go",
+        "likes": 834,
+        "retweetCount": 35,
+        "url": "https://twitter.com/DegenSpartan/status/1717386638551400555"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2023-10-24",
+    "end": "2023-11-21"
+  },
+  "contentTypes": {
+    "withImages": 19,
+    "withVideos": 0,
+    "withLinks": 4,
+    "textOnly": 78
+  }
+}

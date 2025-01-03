@@ -1,0 +1,149 @@
+[
+  {
+    "timestamp": "2025-01-03T16:37:32.331Z",
+    "error": {
+      "message": "this.saveProgress is not a function",
+      "stack": "TypeError: this.saveProgress is not a function\n    at TwitterPipeline.cleanup (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/TwitterPipeline.js:866:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async TwitterPipeline.run (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/TwitterPipeline.js:769:7)"
+    },
+    "context": {
+      "stage": "pipeline_execution",
+      "runtime": 27.412,
+      "stats": {
+        "requestCount": 0,
+        "rateLimitHits": 0,
+        "retriesCount": 0,
+        "uniqueTweets": 0,
+        "fallbackCount": 0,
+        "startTime": 1735922224919,
+        "oldestTweetDate": "2024-12-09T19:17:51.000Z",
+        "newestTweetDate": "2025-01-03T15:38:09.000Z",
+        "fallbackUsed": false
+      },
+      "username": "wsbmod",
+      "sessionDuration": 27412,
+      "rateLimitHits": 0,
+      "fallbackUsed": false,
+      "fallbackCount": 0
+    },
+    "stats": {
+      "requestCount": 0,
+      "rateLimitHits": 0,
+      "retriesCount": 0,
+      "uniqueTweets": 0,
+      "fallbackCount": 0,
+      "startTime": 1735922224919,
+      "oldestTweetDate": "2024-12-09T19:17:51.000Z",
+      "newestTweetDate": "2025-01-03T15:38:09.000Z",
+      "fallbackUsed": false
+    },
+    "config": {
+      "delays": {
+        "min": 1000,
+        "max": 5
+      },
+      "retries": 10,
+      "fallback": {
+        "enabled": true,
+        "sessionDuration": 1800000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-01-03T16:45:17.393Z",
+    "error": {
+      "message": "this.saveProgress is not a function",
+      "stack": "TypeError: this.saveProgress is not a function\n    at TwitterPipeline.cleanup (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/TwitterPipeline.js:866:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async TwitterPipeline.run (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/TwitterPipeline.js:769:7)\n    at async run (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/index.js:56:7)"
+    },
+    "context": {
+      "stage": "pipeline_execution",
+      "runtime": 45.474,
+      "stats": {
+        "requestCount": 0,
+        "rateLimitHits": 0,
+        "retriesCount": 1,
+        "uniqueTweets": 0,
+        "fallbackCount": 0,
+        "startTime": 1735922671919,
+        "oldestTweetDate": "2024-12-09T19:17:51.000Z",
+        "newestTweetDate": "2025-01-03T15:38:09.000Z",
+        "fallbackUsed": false
+      },
+      "username": "wsbmod",
+      "sessionDuration": 45474,
+      "rateLimitHits": 0,
+      "fallbackUsed": false,
+      "fallbackCount": 0
+    },
+    "stats": {
+      "requestCount": 0,
+      "rateLimitHits": 0,
+      "retriesCount": 1,
+      "uniqueTweets": 0,
+      "fallbackCount": 0,
+      "startTime": 1735922671919,
+      "oldestTweetDate": "2024-12-09T19:17:51.000Z",
+      "newestTweetDate": "2025-01-03T15:38:09.000Z",
+      "fallbackUsed": false
+    },
+    "config": {
+      "delays": {
+        "min": 1000,
+        "max": 5
+      },
+      "retries": 10,
+      "fallback": {
+        "enabled": true,
+        "sessionDuration": 1800000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-01-03T16:46:26.051Z",
+    "error": {
+      "message": "this.saveProgress is not a function",
+      "stack": "TypeError: this.saveProgress is not a function\n    at TwitterPipeline.cleanup (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/TwitterPipeline.js:866:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async TwitterPipeline.run (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/TwitterPipeline.js:769:7)\n    at async run (file:///Users/samuelyork/tweets/twitter-scraper-finetune/src/twitter/index.js:56:7)"
+    },
+    "context": {
+      "stage": "pipeline_execution",
+      "runtime": 56.308,
+      "stats": {
+        "requestCount": 0,
+        "rateLimitHits": 0,
+        "retriesCount": 1,
+        "uniqueTweets": 0,
+        "fallbackCount": 0,
+        "startTime": 1735922729743,
+        "oldestTweetDate": "2024-12-09T19:17:51.000Z",
+        "newestTweetDate": "2025-01-03T15:38:09.000Z",
+        "fallbackUsed": false
+      },
+      "username": "wsbmod",
+      "sessionDuration": 56308,
+      "rateLimitHits": 0,
+      "fallbackUsed": false,
+      "fallbackCount": 0
+    },
+    "stats": {
+      "requestCount": 0,
+      "rateLimitHits": 0,
+      "retriesCount": 1,
+      "uniqueTweets": 0,
+      "fallbackCount": 0,
+      "startTime": 1735922729743,
+      "oldestTweetDate": "2024-12-09T19:17:51.000Z",
+      "newestTweetDate": "2025-01-03T15:38:09.000Z",
+      "fallbackUsed": false
+    },
+    "config": {
+      "delays": {
+        "min": 1000,
+        "max": 5
+      },
+      "retries": 10,
+      "fallback": {
+        "enabled": true,
+        "sessionDuration": 1800000
+      }
+    }
+  }
+]

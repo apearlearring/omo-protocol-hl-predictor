@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 28,
+  "replies": 72,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 2739,
+    "totalRetweetCount": 387,
+    "totalReplies": 284,
+    "averageLikes": "27.39",
+    "topTweets": [
+      {
+        "id": "1873644065088282740",
+        "text": "Hypurr NFT sale successfully facilitated for $40K USD. \n\nFunds are currently 100% escrowed for both ",
+        "likes": 314,
+        "retweetCount": 20,
+        "url": "https://twitter.com/hypurr_co/status/1873644065088282740"
+      },
+      {
+        "id": "1873664811382546828",
+        "text": "PSA: Hyperliquid UI for staking $HYPE on mainnet is live! \n\nIf you're unsure on how to stake, here's",
+        "likes": 297,
+        "retweetCount": 66,
+        "url": "https://twitter.com/hypurr_co/status/1873664811382546828"
+      },
+      {
+        "id": "1873677850752233913",
+        "text": "With @HyperliquidX staking going live - Here's a thread on why you might want to support us by staki",
+        "likes": 237,
+        "retweetCount": 54,
+        "url": "https://twitter.com/hypurr_co/status/1873677850752233913"
+      },
+      {
+        "id": "1875062758737346814",
+        "text": "Over 21,000,000 HYPE Tokens have been staked with us.\n\nWe're truly honored to be the top #1 validato",
+        "likes": 172,
+        "retweetCount": 35,
+        "url": "https://twitter.com/hypurr_co/status/1875062758737346814"
+      },
+      {
+        "id": "1873664536991215912",
+        "text": "Nansen x HypurrCollective Validator Partnership.\n\nWe’re excited to share that we are partnering with",
+        "likes": 172,
+        "retweetCount": 23,
+        "url": "https://twitter.com/hypurr_co/status/1873664536991215912"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-12-30",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 12,
+    "withVideos": 0,
+    "withLinks": 8,
+    "textOnly": 82
+  }
+}

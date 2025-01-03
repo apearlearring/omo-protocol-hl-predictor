@@ -1,0 +1,59 @@
+{
+  "totalTweets": 100,
+  "directTweets": 45,
+  "replies": 55,
+  "retweets": 0,
+  "engagement": {
+    "totalLikes": 22348,
+    "totalRetweetCount": 1563,
+    "totalReplies": 2214,
+    "averageLikes": "223.48",
+    "topTweets": [
+      {
+        "id": "1867239839831326825",
+        "text": "Dynasties are built on large HyPURR-concentrated bets 🤫 https://t.co/6aHfqrJeW4",
+        "likes": 1208,
+        "retweetCount": 103,
+        "url": "https://twitter.com/smartestmoney_/status/1867239839831326825"
+      },
+      {
+        "id": "1821798251621953798",
+        "text": "Rumors of my demise have been greatly exaggerated.\n\nClosing another 2000 $ETH CoinM win here from 22",
+        "likes": 1185,
+        "retweetCount": 47,
+        "url": "https://twitter.com/smartestmoney_/status/1821798251621953798"
+      },
+      {
+        "id": "1868108649539006889",
+        "text": "As one of the largest individual holders of $HYPE and $PURR (have not sold a single token), I am onc",
+        "likes": 1111,
+        "retweetCount": 123,
+        "url": "https://twitter.com/smartestmoney_/status/1868108649539006889"
+      },
+      {
+        "id": "1867613661923266939",
+        "text": "Full port $HYPE and $PURR from TGE. \n\nNo HYPErbole. \n\nIf you think that this is just another perp de",
+        "likes": 1042,
+        "retweetCount": 151,
+        "url": "https://twitter.com/smartestmoney_/status/1867613661923266939"
+      },
+      {
+        "id": "1870374886121812405",
+        "text": "JOB’S NOT FINISHED.\n\n$HYPE to $100 https://t.co/5y0MKjUfK6",
+        "likes": 916,
+        "retweetCount": 90,
+        "url": "https://twitter.com/smartestmoney_/status/1870374886121812405"
+      }
+    ]
+  },
+  "timeRange": {
+    "start": "2024-07-15",
+    "end": "2025-01-03"
+  },
+  "contentTypes": {
+    "withImages": 23,
+    "withVideos": 2,
+    "withLinks": 6,
+    "textOnly": 69
+  }
+}
