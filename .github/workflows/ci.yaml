@@ -23,7 +23,7 @@ jobs:
               run: pnpm install --no-frozen-lockfile
 
             - name: Build packages
-              run: pnpm build:no-tests
+              run: pnpm build
 
             # - name: Upload coverage reports to Codecov
             #   uses: codecov/codecov-action@v5
