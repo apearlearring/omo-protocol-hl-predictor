@@ -1,0 +1,33 @@
+{
+    "family": "kol-starter-task",
+    "containerDefinitions": [
+      {
+        "name": "kol-starter-container",
+        "image": "905417993821.dkr.ecr.ap-southeast-1.amazonaws.com/omo/kol-starterp:latest",
+        "cpu": 1024,
+        "memory": 2048,
+        "essential": true,
+        "portMappings": [
+          {
+            "containerPort": 3000,
+            "hostPort": 3000,
+            "protocol": "tcp"
+          }
+        ],
+        "logConfiguration": {
+          "logDriver": "awslogs",
+          "options": {
+            "awslogs-group": "/ecs/kol-starter",
+            "awslogs-region": "ap-southeast-1",
+            "awslogs-stream-prefix": "kol-starter"
+          }
+        }
+      }
+    ],
+    "requiresCompatibilities": ["FARGATE"],
+    "networkMode": "awsvpc",
+    "cpu": "256",
+    "memory": "512",
+    "executionRoleArn": "arn:aws:iam::905417993821:role/ecsTaskExecutionRole",
+    "taskRoleArn": "arn:aws:iam::905417993821:role/ecsTaskRole"
+  }
