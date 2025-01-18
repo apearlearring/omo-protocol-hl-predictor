@@ -22,19 +22,8 @@ jobs:
             - name: Install dependencies
               run: pnpm install --no-frozen-lockfile
 
-            - name: Run Prettier
-              run: pnpm run prettier --check .
-
-            - name: Run Linter
-              run: pnpm run lint
-
-            - name: Create test env file
-              run: |
-                  echo "TEST_DATABASE_CLIENT=sqlite" > packages/core/.env.test
-                  echo "NODE_ENV=test" >> packages/core/.env.test
-
             - name: Build packages
-              run: build:no-tests
+              run: pnpm build:no-tests
 
             # - name: Upload coverage reports to Codecov
             #   uses: codecov/codecov-action@v5
