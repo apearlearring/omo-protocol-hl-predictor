@@ -2,7 +2,7 @@
 FROM node:23.3.0-slim AS builder
 
 # Install pnpm globally and install necessary build tools
-RUN npm install -g pnpm@9.4.0 && \
+RUN npm install -g pnpm@9.15.4 && \
     apt-get update && \
     apt-get install -y git python3 make g++ && \
     apt-get clean && \
@@ -32,7 +32,7 @@ RUN pnpm install --no-frozen-lockfile \
 FROM node:23.3.0-slim
 
 # Install runtime dependencies if needed
-RUN npm install -g pnpm@9.4.0 && \
+RUN npm install -g pnpm@9.15.4 && \
     apt-get update && \
     apt-get install -y git python3 && \
     apt-get clean && \
