@@ -45,9 +45,9 @@ jobs:
                   docker push 905417993821.dkr.ecr.ap-southeast-1.amazonaws.com/omo/kol-starter:${{ github.sha }}
 
             - name: Deploy to Amazon ECS
-              uses: aws-actions/amazon-ecs-deploy-task-definition@v1
+              uses: aws-actions/amazon-ecs-deploy-task-definition@v2
               with:
                   task-definition: ecs-task-def.json
-                  service: my-service
-                  cluster: my-cluster
+                  service: kol-starter-service
+                  cluster: kol-starter-cluster
                   wait-for-service-stability: true
