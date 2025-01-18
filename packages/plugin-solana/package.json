@@ -21,8 +21,7 @@
     "scripts": {
         "build": "tsup --format esm --dts",
         "dev": "tsup --format esm --dts --watch",
-        "lint": "eslint . --fix",
-        "test": "vitest run"
+        "lint": "eslint . --fix"
     },
     "peerDependencies": {
         "form-data": "4.0.1",
