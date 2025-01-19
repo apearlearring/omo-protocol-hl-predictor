@@ -39,10 +39,12 @@ jobs:
                     --build-arg ENV_FILE=.env \
                     -t kol-starter:${{ github.sha }} .
                   docker tag kol-starter:${{ github.sha }} 905417993821.dkr.ecr.ap-southeast-1.amazonaws.com/omo/kol-starter:${{ github.sha }}
+                  docker tag kol-starter:${{ github.sha }} 905417993821.dkr.ecr.ap-southeast-1.amazonaws.com/omo/kol-starter:latest
 
             - name: Push Docker Image to Amazon ECR
               run: |
                   docker push 905417993821.dkr.ecr.ap-southeast-1.amazonaws.com/omo/kol-starter:${{ github.sha }}
+                  docker push 905417993821.dkr.ecr.ap-southeast-1.amazonaws.com/omo/kol-starter:latest
 
             - name: Deploy to Amazon ECS
               uses: aws-actions/amazon-ecs-deploy-task-definition@v2
